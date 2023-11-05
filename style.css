@@ -1,0 +1,41 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+header, footer, section {
+  padding: 100px 0;
+}
+
+header {
+  padding: 200px 0;
+}
+
+header, footer {
+  background: linear-gradient(to right, rgb(0, 0, 0) 1%, rgb(255, 255, 255));
+}
+
+.btn-play {
+  background-color: #000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+.btn-play:hover {
+  background-color: #fff;
+}
+.btn i {
+  font-size: 35px;
+}
+.btn:hover i {
+  color: #000;
+}
+.btn-rect {
+  border-radius: 0;
+  width: 80px;
+  height: 40px;
+}/*# sourceMappingURL=style.css.map */
