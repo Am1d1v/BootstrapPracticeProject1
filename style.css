@@ -47,6 +47,15 @@ header, footer {
   width: 80px;
   height: 40px;
 }
+.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+.btn-black:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+}
 
 .about_circle {
   display: flex;
@@ -66,4 +75,13 @@ header, footer {
   width: 160px;
   height: 3px;
   background-color: var(--color-black);
+}
+
+.content-grid {
+  padding: 10px;
+}
+.content_inner {
+  border: 1px solid #000;
+  padding: 15px;
+  margin: 5px 0;
 }/*# sourceMappingURL=style.css.map */
